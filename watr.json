@@ -3,6 +3,7 @@
     "head": {
       "title": "Watr",
       "description": "Simple hydration tracker",
+      
       "offline": "true"
     },
     "body": {
