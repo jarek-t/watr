@@ -11,7 +11,7 @@
       },
       "background": {
       "type": "html",
-      "url": "https://www.google.com",
+      "text": "<html><body><h1>testing</h1></body><html>",
       "action": {
         "type": "$default"
         }
