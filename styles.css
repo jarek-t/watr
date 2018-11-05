@@ -8,7 +8,7 @@ body {
   justify-content: flex-end;
   flex-direction: column;
 }
-.sip {
+#sip-container div {
   display: table-cell;
   height: 10%;
   width: 100%;
