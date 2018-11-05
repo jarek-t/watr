@@ -3,7 +3,7 @@
     "head": {
       "title": "Watr",
       "description": "Simple hydration tracker",
-      "icon": "https://raw.githubusercontent.com/jarek-t/watr/master/watr.svg",
+      "icon": "https://raw.githubusercontent.com/jarek-t/watr/master/watr-s.png",
       "offline": "true"
     },
     "body": {
@@ -14,7 +14,7 @@
             "width": "100",
             "height": "100"
           },
-          "url": "https://raw.githubusercontent.com/jarek-t/watr/master/watr.svg"
+          "url": "https://raw.githubusercontent.com/jarek-t/watr/master/water-s.png"
         }
       },
       "background": {
