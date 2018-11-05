@@ -11,7 +11,7 @@
       },
       "background": {
         "type": "html",
-        "url": "https://raw.githubusercontent.com/jarek-t/watr/master/watr.html"
+        "url": "file://https://raw.githubusercontent.com/jarek-t/watr/master/watr.html"
       }
     }
   }
