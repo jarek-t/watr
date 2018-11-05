@@ -10,30 +10,8 @@
         "title": "Please work"
       },
       "background": {
-      "type": "html",
-      "text": "<html>
-      <head>
-        <script
-        src="https://code.jquery.com/jquery-3.3.1.js"
-        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-        crossorigin="anonymous">
-        </script>
-
-        <script>
-        <src="https://raw.githubusercontent.com/jarek-t/watr/master/logic.js">
-        </script>
-
-        <link rel="stylesheet" href="https://raw.githubusercontent.com/jarek-t/watr/master/styles.css">
-      </head>
-
-      <body>
-        <h1>Testing<h1>
-        <h1 id="t2">Testing2</h1>
-      </body>
-      <html>",
-      "action": {
-        "type": "$default"
-        }
+        "type": "html",
+        "url": "https://www.w3schools.com/default.asp"
       }
     }
   }
