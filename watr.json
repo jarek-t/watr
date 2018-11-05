@@ -1,15 +1,21 @@
 {
   "$jason": {
     "head": {
-      "title": "Plz Work",
-      "description": "Testing lorem ipsum",
+      "title": "Watr",
+      "description": "Simple hydration tracker",
       "offline": "true"
     },
     "body": {
       "header": {
         "title": "Please work"
       },
-      "background": "camera"
+      "background": {
+      "type": "html",
+      "url": "https://www.google.com",
+      "action": {
+        "type": "$default"
+        }
+      }
     }
   }
 }
