@@ -1,3 +1,16 @@
 body {
   background: blue;
 }
+#sip-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.sip {
+  display: table-cell;
+  height: 10%;
+  width: 100%;
+  background: green;
+}
