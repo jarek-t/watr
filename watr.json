@@ -1,16 +1,15 @@
 {
   "$jason": {
     "head": {
-      "title": "Tutorial",
+      "title": "Plz Work",
+      "description": "Testing lorem ipsum",
+      "offline": "true"
     },
     "body": {
-      "background": {
-        "type": "html",
-        "url": "https://www.google.com",
-        "action": {
-          "type": "$default"
-        }
-      }
+      "header": {
+        "title": "Please work"
+      },
+      "background": "camera"
     }
   }
 }
