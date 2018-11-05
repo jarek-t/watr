@@ -11,7 +11,10 @@
       },
       "background": {
         "type": "html",
-        "url": "https://jarek-t.github.io/watr"
+        "url": "https://jarek-t.github.io/watr",
+        "action": {
+          "type": "$default"
+        }
       }
     }
   }
