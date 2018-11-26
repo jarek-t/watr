@@ -5,11 +5,34 @@
 
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
+
+    <link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
   </head>
 
   <body>
-    <div id="sip-container">
 
+    <div id="results">
+      <h1 id="success">Congratulations, you're hydrated.</h1>
+      <h1 id="failure">Sorry, drink more water.</h1>
+    </div>
+
+    <div id="param-wrapper">
+      <div id="params">
+        <h2 class="param-item">I want to drink
+        <input class="param-item" type="number" id="glasses" name="glasses">
+        glasses of water over the next
+        <input class="param-item" type="number" id="duration" name="duration">
+        hours.</h2>
+
+        <button type="button" id="start-timing">Start!</button>
+      </div>
+    </div>
+
+    <div id="watr-wrapper">
+      <div id="glasses">
+
+      </div>
     <div>
   </body>
 </html>
