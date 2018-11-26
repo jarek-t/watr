@@ -19,22 +19,7 @@
       },
       "background": {
         "type": "html",
-        "text":
-        <html>
-          <head>
-            <script src="jquery.js" type="text/javascript"></script>
-            <script src="logic.js" type="text/javascript"></script>
-
-            <link rel="stylesheet" href="reset.css">
-            <link rel="stylesheet" href="styles.css">
-          </head>
-
-          <body>
-            <div id="sip-container">
-
-            <div>
-          </body>
-        </html>
+        "url": "https://jarek-t.github.io/watr/",
 
         "action": {
           "type": "$default"
