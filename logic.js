@@ -6,11 +6,6 @@ $( document ).ready(function() {
   var timer;
   var time_left;
 
-  //Checks for hydration goal
-  function check_goal( count, goal ){
-    return count >= goal;
-  }
-
   //Increments hydration count
   function closer(){
     count = count + 1;
@@ -43,7 +38,7 @@ $( document ).ready(function() {
     $("#param-wrapper").css('display', 'block');
     $("#watr-wrapper").css('display', 'none');
 
-    if ( check_goal() ) {
+    if ( count >= goal ) {
       $("#success").css('display', 'block');
     }
     else {
@@ -68,6 +63,11 @@ $( document ).ready(function() {
     base_time = ($("#duration").val()) * 3600 * 1000;
     $("#duration").val('');
 
+    $("#count-print").text( count );
+    $("#goal-print").text( goal );
+
+    $("#watr-wrapper").css('display', 'block');
+
     time_tracker = (new Date()).getTime();
 
     timer = setTimeout( finish, base_time );
@@ -78,6 +78,10 @@ $( document ).ready(function() {
     finish();
   });
 
+  $("#tracker").click( function(){
+
+  });
+
   //Makes sure our achievment indicators are hidden at the beginning
   $("#success").css('display', 'none');
   $("#failure").css('display', 'none');
@@ -86,5 +90,13 @@ $( document ).ready(function() {
   setInterval(function() {
     $("#time").text( remaining_time() );
   }, 1000);
+
+  $("#tracker-wrap").click( function(){
+    closer();
+    $("#count-print").text( count );
+    $("#goal-print").text( goal );
+
+
+  });
 
 });

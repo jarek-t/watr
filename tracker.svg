@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="watr" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 250 357.1" style="enable-background:new 0 0 250 357.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#82E0FF;stroke:#EFEFEF;stroke-width:10;stroke-miterlimit:10;}
+	.st1{fill:#232323;}
+</style>
+<!--322.6 max H-(height+17)-->
+<rect id="water" x="41.8" y="20" class="st0" width="175.4" height="320"/>
+<path id="glass" class="st1" d="M205.9,7.2v319.7c0,2.9-2.3,5.2-5.2,5.2H58.4c-2.9,0-5.2-2.3-5.2-5.2V7.2C53.2,3.2,50,0,46,0H35.4
+	c-4,0-7.2,3.2-7.2,7.2v319.7c0,16.7,13.5,30.2,30.2,30.2h142.2c16.7,0,30.2-13.5,30.2-30.2V7.2c0-4-3.2-7.2-7.2-7.2H213
+	C209.1,0,205.9,3.2,205.9,7.2z"/>
+</svg>

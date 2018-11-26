@@ -11,6 +11,9 @@
   </head>
 
   <body>
+    <video autoplay muted loop id="bg">
+      <source src="processed-bg.mp4" type="video/mp4">
+    </video>
 
     <div id="results">
       <h1 id="success">Congratulations, you're hydrated.</h1>
@@ -34,12 +37,18 @@
       <h1 id="time"></h1>
 
 
-      <div id="glasses">
+      <div id="tracker-wrap">
+        <div id="tracker">
+          <h1 id="count-print"></h1>
 
+          <div></div>
+
+          <h1 id="goal-print"></h1>
+        </div>
       </div>
 
-      <button type="button" id="new-watr">Watr</button>
-      <button type="button" id="reset">Reset</button>
+
+      <img src="refresh.svg" id="reset" >
     <div>
   </body>
 </html>

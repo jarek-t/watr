@@ -1,5 +1,20 @@
 body {
   background: blue; }
+  body #bg {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; }
   body #results {
     width: 100%;
     background-color: #82e0ff;
@@ -43,20 +58,7 @@ body {
   body #watr-wrapper {
     width: 95%;
     margin-left: 2.5%;
-    /*#watr-header {
-      width: 100%;
-      margin-top: 5%;
-      font-family: 'ABeeZee', sans-serif;
-      font-size: 2.5vw;
-      color: #efefef;
-      text-align: center;
-      h1{
-        float: right;
-      }
-      h2{
-        float: left;
-      }
-    }*/ }
+    height: 100%; }
     body #watr-wrapper h1 {
       width: 100%;
       margin-top: 5%;
@@ -64,5 +66,29 @@ body {
       font-size: 10vw;
       color: #efefef;
       text-align: center; }
+    body #watr-wrapper #tracker-wrap {
+      width: 75%;
+      height: 60%;
+      margin: 10% auto 10% 12.5%;
+      background: url("tracker.svg") no-repeat top left;
+      background-size: contain;
+      position: relative; }
+      body #watr-wrapper #tracker-wrap div {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-60%);
+        width: 100%; }
+        body #watr-wrapper #tracker-wrap div h1 {
+          text-align: center;
+          width: 20%;
+          margin-left: 40%;
+          color: #232323; }
+        body #watr-wrapper #tracker-wrap div #count-print {
+          padding-bottom: 5%;
+          margin-bottom: 5%;
+          border-bottom: solid 10px black; }
+    body #watr-wrapper #reset {
+      width: 20%;
+      margin: auto auto auto 40%; }
 
 /*# sourceMappingURL=styles.css.map */
